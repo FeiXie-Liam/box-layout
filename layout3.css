@@ -1,0 +1,40 @@
+.main {
+  margin: auto 30px;
+  width: 900px;
+  height: 300px;
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+
+.main>div{
+  float: left;
+  height: 100%;
+}
+
+.main>div:nth-child(1){
+  width: 25%;
+}
+
+.blue{
+  height: 50%;
+  background-color: #3747F5;
+}
+
+.yellow{
+  height: 50%;
+  background-color: #FEFB4F;
+}
+
+.white{
+  height: 50%;
+  background-color: white;
+}
+
+.main>div:nth-child(2){
+  width: 50%;
+  background-color: #fdc2cb;
+}
+
+.main>div:nth-child(3){
+  width: 25%;
+}
